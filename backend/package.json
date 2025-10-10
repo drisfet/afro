@@ -1,0 +1,40 @@
+{
+  "name": "afro-backend",
+  "version": "1.0.0",
+  "description": "Medusa backend for Afro e-commerce",
+  "main": "index.js",
+  "scripts": {
+    "dev": "medusa develop",
+    "build": "medusa build",
+    "start": "medusa start",
+    "seed": "medusa seed -f ./data/seed.json"
+  },
+  "dependencies": {
+    "@medusajs/medusa": "^1.20.0",
+    "@medusajs/cache-inmemory": "^1.8.9",
+    "@medusajs/cache-redis": "^1.8.9",
+    "@medusajs/event-bus-local": "^1.9.7",
+    "@medusajs/event-bus-redis": "^1.8.10",
+    "@medusajs/file-local": "^1.0.2",
+    "medusa-fulfillment-manual": "^1.1.38",
+    "medusa-interfaces": "^1.3.7",
+    "medusa-payment-manual": "^1.0.24",
+    "medusa-payment-stripe": "^6.0.5",
+    "typeorm": "^0.3.16",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.2",
+    "medusa-plugin-sendgrid": "^1.3.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-typescript": "^7.21.4",
+    "babel-preset-medusa-package": "^1.1.19"
+  },
+  "keywords": [
+    "medusa-backend",
+    "ecommerce"
+  ]
+}

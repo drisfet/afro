@@ -1,0 +1,25 @@
+{
+  "name": "afro",
+  "version": "1.0.0",
+  "description": "E-commerce website with Medusa backend and Next.js storefront",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "storefront"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=backend & npm run dev --workspace=storefront",
+    "build": "npm run build --workspace=backend && npm run build --workspace=storefront",
+    "start": "npm run start --workspace=backend & npm run start --workspace=storefront",
+    "backend:dev": "npm run dev --workspace=backend",
+    "storefront:dev": "npm run dev --workspace=storefront"
+  },
+  "keywords": [
+    "medusa",
+    "ecommerce",
+    "nextjs",
+    "storefront"
+  ],
+  "author": "",
+  "license": "MIT"
+}
