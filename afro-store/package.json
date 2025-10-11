@@ -14,7 +14,9 @@
   ],
   "scripts": {
     "build": "medusa build",
-    "seed": "medusa exec ./src/scripts/seed.ts",
+    "seed": "medusa exec ./src/scripts/seed-howt-foods.ts",
+    "seed:demo": "medusa exec ./src/scripts/seed.ts",
+    "transform": "cd .. && node transform-products.js",
     "start": "medusa start",
     "dev": "medusa develop",
     "test:integration:http": "TEST_TYPE=integration:http NODE_OPTIONS=--experimental-vm-modules jest --silent=false --runInBand --forceExit",

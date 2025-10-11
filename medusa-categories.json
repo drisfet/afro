@@ -1,0 +1,232 @@
+[
+  {
+    "name": "Hair Products",
+    "handle": "hair-products",
+    "parent": null
+  },
+  {
+    "name": "Personal hygiene",
+    "handle": "personal-hygiene",
+    "parent": null
+  },
+  {
+    "name": "Fruits and Vegetables",
+    "handle": "fruits-and-vegetables",
+    "parent": null
+  },
+  {
+    "name": "Meat and Poultry",
+    "handle": "meat-and-poultry",
+    "parent": null
+  },
+  {
+    "name": "Fish and Seafood",
+    "handle": "fish-and-seafood",
+    "parent": null
+  },
+  {
+    "name": "Sauces and Spices",
+    "handle": "sauces-and-spices",
+    "parent": null
+  },
+  {
+    "name": "Canned Food and Oil",
+    "handle": "canned-food-and-oil",
+    "parent": null
+  },
+  {
+    "name": "Bakery",
+    "handle": "bakery",
+    "parent": null
+  },
+  {
+    "name": "Cereals",
+    "handle": "cereals",
+    "parent": null
+  },
+  {
+    "name": "Provisions",
+    "handle": "provisions",
+    "parent": null
+  },
+  {
+    "name": "Drinks",
+    "handle": "drinks",
+    "parent": null
+  },
+  {
+    "name": "Dairy and Eggs",
+    "handle": "dairy-and-eggs",
+    "parent": null
+  },
+  {
+    "name": "Packets",
+    "handle": "packets",
+    "parent": null
+  },
+  {
+    "name": "Condiments",
+    "handle": "condiments",
+    "parent": null
+  },
+  {
+    "name": "Grains",
+    "handle": "grains",
+    "parent": null
+  },
+  {
+    "name": "Swallows",
+    "handle": "swallows",
+    "parent": null
+  },
+  {
+    "name": "Uncategorized",
+    "handle": "uncategorized",
+    "parent": null
+  },
+  {
+    "name": "Hair Oil",
+    "handle": "hair-oil",
+    "parent": "Hair Products"
+  },
+  {
+    "name": "Hair Cream",
+    "handle": "hair-cream",
+    "parent": "Hair Products"
+  },
+  {
+    "name": "Hair Conditioner",
+    "handle": "hair-conditioner",
+    "parent": "Hair Products"
+  },
+  {
+    "name": "Relaxer",
+    "handle": "relaxer",
+    "parent": "Hair Products"
+  },
+  {
+    "name": "Hair gel",
+    "handle": "hair-gel",
+    "parent": "Hair Products"
+  },
+  {
+    "name": "Hair",
+    "handle": "hair",
+    "parent": "Hair Products"
+  },
+  {
+    "name": "Shampoo",
+    "handle": "shampoo",
+    "parent": "Personal hygiene"
+  },
+  {
+    "name": "Body Oils",
+    "handle": "body-oils",
+    "parent": "Personal hygiene"
+  },
+  {
+    "name": "Lotions and Creams",
+    "handle": "lotions-and-creams",
+    "parent": "Personal hygiene"
+  },
+  {
+    "name": "Soaps",
+    "handle": "soaps",
+    "parent": "Personal hygiene"
+  },
+  {
+    "name": "Vegetables",
+    "handle": "vegetables",
+    "parent": "Fruits and Vegetables"
+  },
+  {
+    "name": "Fruits",
+    "handle": "fruits",
+    "parent": "Fruits and Vegetables"
+  },
+  {
+    "name": "Leaves",
+    "handle": "leaves",
+    "parent": "Fruits and Vegetables"
+  },
+  {
+    "name": "Fresh meat",
+    "handle": "fresh-meat",
+    "parent": "Meat and Poultry"
+  },
+  {
+    "name": "Chicken",
+    "handle": "chicken",
+    "parent": "Meat and Poultry"
+  },
+  {
+    "name": "Dry Fish",
+    "handle": "dry-fish",
+    "parent": "Fish and Seafood"
+  },
+  {
+    "name": "Dry Prawns",
+    "handle": "dry-prawns",
+    "parent": "Fish and Seafood"
+  },
+  {
+    "name": "Fresh Prawns",
+    "handle": "fresh-prawns",
+    "parent": "Fish and Seafood"
+  },
+  {
+    "name": "Frozen Foods",
+    "handle": "frozen-foods",
+    "parent": "Fish and Seafood"
+  },
+  {
+    "name": "Sauces",
+    "handle": "sauces",
+    "parent": "Sauces and Spices"
+  },
+  {
+    "name": "Soup Spices",
+    "handle": "soup-spices",
+    "parent": "Sauces and Spices"
+  },
+  {
+    "name": "Tomato paste",
+    "handle": "tomato-paste",
+    "parent": "Sauces and Spices"
+  },
+  {
+    "name": "Oils and vinegar",
+    "handle": "oils-and-vinegar",
+    "parent": "Canned Food and Oil"
+  },
+  {
+    "name": "Snacks",
+    "handle": "snacks",
+    "parent": "Bakery"
+  },
+  {
+    "name": "Sweets and Chips",
+    "handle": "sweets-and-chips",
+    "parent": "Bakery"
+  },
+  {
+    "name": "Nuts",
+    "handle": "nuts",
+    "parent": "Provisions"
+  },
+  {
+    "name": "Sweets",
+    "handle": "sweets",
+    "parent": "Provisions"
+  },
+  {
+    "name": "Herbal Drinks",
+    "handle": "herbal-drinks",
+    "parent": "Drinks"
+  },
+  {
+    "name": "Soft Drinks and Juice",
+    "handle": "soft-drinks-and-juice",
+    "parent": "Drinks"
+  }
+]
