@@ -6,9 +6,9 @@ import { listCollections } from "@lib/data/collections"
 import { getRegion } from "@lib/data/regions"
 
 export const metadata: Metadata = {
-  title: "Medusa Next.js Starter Template",
+  title: "AfroMart Sydney - Authentic African Groceries Online",
   description:
-    "A performant frontend ecommerce starter template with Next.js 15 and Medusa.",
+    "Sydney's premier online destination for authentic African groceries, provisions, and specialty products. Same-day delivery available. Physical store coming soon!",
 }
 
 export default async function Home(props: {
