@@ -1,0 +1,825 @@
+{
+  "url": "https://howtfoods.com.au",
+  "title": "Howt Foods Melbourne - Order African Groceries Online",
+  "layout": {
+    "header": {
+      "classes": "bg-light box-shadow-sm fixed-top side-header-fixed-top navbar-sticky",
+      "logo": "https://howtfoods.com.au/wp-content/uploads/2022/03/cropped-logo-howtfoods.png",
+      "tagline": null,
+      "search": true,
+      "cart_icon": true,
+      "account_link": true
+    },
+    "hero": {
+      "type": "slider",
+      "classes": "slider",
+      "has_images": true,
+      "has_cta": false
+    }
+  },
+  "navigation": {
+    "menus": [
+      {
+        "id": "menu-1",
+        "classes": "cz-handheld-menu",
+        "items": [
+          {
+            "text": "Home",
+            "url": "https://howtfoods.com.au/",
+            "has_submenu": false
+          },
+          {
+            "text": "Pages",
+            "url": "#",
+            "has_submenu": false
+          },
+          {
+            "text": "About Howtfoods",
+            "url": "https://howtfoods.com.au/about-us/",
+            "has_submenu": false
+          },
+          {
+            "text": "Contacts",
+            "url": "https://howtfoods.com.au/contacts/",
+            "has_submenu": false
+          },
+          {
+            "text": "Shop",
+            "url": "https://howtfoods.com.au/shop/",
+            "has_submenu": false
+          },
+          {
+            "text": "Account",
+            "url": "https://howtfoods.com.au/my-account-2/",
+            "has_submenu": false
+          },
+          {
+            "text": "Order History",
+            "url": "https://howtfoods.com.au/my-account/orders/",
+            "has_submenu": false
+          },
+          {
+            "text": "Payment methods",
+            "url": "https://howtfoods.com.au/my-account/payment-methods/",
+            "has_submenu": false
+          }
+        ]
+      },
+      {
+        "id": "menu-2",
+        "classes": "cz-handheld-menu",
+        "items": [
+          {
+            "text": "Special Offers",
+            "url": "https://howtfoods.com.au/shop/",
+            "has_submenu": false
+          },
+          {
+            "text": "Swallows",
+            "url": "https://howtfoods.com.au/product-category/swallows/",
+            "has_submenu": false
+          },
+          {
+            "text": "Grains",
+            "url": "https://howtfoods.com.au/product-category/grains/",
+            "has_submenu": false
+          },
+          {
+            "text": "Fruits and Vegetables",
+            "url": "https://howtfoods.com.au/product-category/fruits-and-vegetables/vegetables/",
+            "has_submenu": false
+          },
+          {
+            "text": "Leaves",
+            "url": "https://howtfoods.com.au/product-category/fruits-and-vegetables/leaves/",
+            "has_submenu": false
+          },
+          {
+            "text": "Fruits",
+            "url": "https://howtfoods.com.au/product-category/fruits-and-vegetables/fruits/",
+            "has_submenu": false
+          },
+          {
+            "text": "Citrus",
+            "url": "https://howtfoods.com.au/product-category/fruits-and-vegetables/fruits/citrus/",
+            "has_submenu": false
+          },
+          {
+            "text": "Dairy and Eggs",
+            "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/",
+            "has_submenu": false
+          },
+          {
+            "text": "Milk",
+            "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/milk/",
+            "has_submenu": false
+          },
+          {
+            "text": "Pasta",
+            "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/pasta/",
+            "has_submenu": false
+          },
+          {
+            "text": "Cheese",
+            "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/cheese/",
+            "has_submenu": false
+          },
+          {
+            "text": "Hard cheese",
+            "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/cheese/hard-cheese/",
+            "has_submenu": false
+          },
+          {
+            "text": "Soft cheese",
+            "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/cheese/soft-cheese/",
+            "has_submenu": false
+          },
+          {
+            "text": "Semi-hard cheese",
+            "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/cheese/semi-hard-cheese/",
+            "has_submenu": false
+          },
+          {
+            "text": "Meat and Poultry",
+            "url": "https://howtfoods.com.au/product-category/meat-and-poultry/",
+            "has_submenu": false
+          },
+          {
+            "text": "Fresh meat",
+            "url": "https://howtfoods.com.au/product-category/meat-and-poultry/fresh-meat/",
+            "has_submenu": false
+          },
+          {
+            "text": "Chicken",
+            "url": "https://howtfoods.com.au/product-category/meat-and-poultry/fresh-meat/chicken/",
+            "has_submenu": false
+          },
+          {
+            "text": "Fish and Seafood",
+            "url": "https://howtfoods.com.au/product-category/fish-and-seafood/",
+            "has_submenu": false
+          },
+          {
+            "text": "Frozen Foods",
+            "url": "https://howtfoods.com.au/product-category/fish-and-seafood/frozen-foods/",
+            "has_submenu": false
+          },
+          {
+            "text": "Dry Fish",
+            "url": "https://howtfoods.com.au/product-category/fish-and-seafood/dry-fish/",
+            "has_submenu": false
+          }
+        ]
+      },
+      {
+        "id": "menu-3",
+        "classes": "cz-handheld-menu",
+        "items": [
+          {
+            "text": "Special Offers",
+            "url": "https://howtfoods.com.au/shop/",
+            "has_submenu": false
+          },
+          {
+            "text": "Swallows",
+            "url": "https://howtfoods.com.au/product-category/swallows/",
+            "has_submenu": false
+          },
+          {
+            "text": "Grains",
+            "url": "https://howtfoods.com.au/product-category/grains/",
+            "has_submenu": false
+          },
+          {
+            "text": "Fruits and Vegetables",
+            "url": "https://howtfoods.com.au/product-category/fruits-and-vegetables/vegetables/",
+            "has_submenu": false
+          },
+          {
+            "text": "Leaves",
+            "url": "https://howtfoods.com.au/product-category/fruits-and-vegetables/leaves/",
+            "has_submenu": false
+          },
+          {
+            "text": "Fruits",
+            "url": "https://howtfoods.com.au/product-category/fruits-and-vegetables/fruits/",
+            "has_submenu": false
+          },
+          {
+            "text": "Citrus",
+            "url": "https://howtfoods.com.au/product-category/fruits-and-vegetables/fruits/citrus/",
+            "has_submenu": false
+          },
+          {
+            "text": "Dairy and Eggs",
+            "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/",
+            "has_submenu": false
+          },
+          {
+            "text": "Milk",
+            "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/milk/",
+            "has_submenu": false
+          },
+          {
+            "text": "Pasta",
+            "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/pasta/",
+            "has_submenu": false
+          },
+          {
+            "text": "Cheese",
+            "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/cheese/",
+            "has_submenu": false
+          },
+          {
+            "text": "Hard cheese",
+            "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/cheese/hard-cheese/",
+            "has_submenu": false
+          },
+          {
+            "text": "Soft cheese",
+            "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/cheese/soft-cheese/",
+            "has_submenu": false
+          },
+          {
+            "text": "Semi-hard cheese",
+            "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/cheese/semi-hard-cheese/",
+            "has_submenu": false
+          },
+          {
+            "text": "Meat and Poultry",
+            "url": "https://howtfoods.com.au/product-category/meat-and-poultry/",
+            "has_submenu": false
+          },
+          {
+            "text": "Fresh meat",
+            "url": "https://howtfoods.com.au/product-category/meat-and-poultry/fresh-meat/",
+            "has_submenu": false
+          },
+          {
+            "text": "Chicken",
+            "url": "https://howtfoods.com.au/product-category/meat-and-poultry/fresh-meat/chicken/",
+            "has_submenu": false
+          },
+          {
+            "text": "Fish and Seafood",
+            "url": "https://howtfoods.com.au/product-category/fish-and-seafood/",
+            "has_submenu": false
+          },
+          {
+            "text": "Frozen Foods",
+            "url": "https://howtfoods.com.au/product-category/fish-and-seafood/frozen-foods/",
+            "has_submenu": false
+          },
+          {
+            "text": "Dry Fish",
+            "url": "https://howtfoods.com.au/product-category/fish-and-seafood/dry-fish/",
+            "has_submenu": false
+          }
+        ]
+      },
+      {
+        "id": "menu-4",
+        "classes": "cz-handheld-menu",
+        "items": [
+          {
+            "text": "Home",
+            "url": "https://howtfoods.com.au/",
+            "has_submenu": false
+          },
+          {
+            "text": "Pages",
+            "url": "#",
+            "has_submenu": false
+          },
+          {
+            "text": "About Howtfoods",
+            "url": "https://howtfoods.com.au/about-us/",
+            "has_submenu": false
+          },
+          {
+            "text": "Contacts",
+            "url": "https://howtfoods.com.au/contacts/",
+            "has_submenu": false
+          },
+          {
+            "text": "Shop",
+            "url": "https://howtfoods.com.au/shop/",
+            "has_submenu": false
+          },
+          {
+            "text": "Account",
+            "url": "https://howtfoods.com.au/my-account-2/",
+            "has_submenu": false
+          },
+          {
+            "text": "Order History",
+            "url": "https://howtfoods.com.au/my-account/orders/",
+            "has_submenu": false
+          },
+          {
+            "text": "Payment methods",
+            "url": "https://howtfoods.com.au/my-account/payment-methods/",
+            "has_submenu": false
+          }
+        ]
+      },
+      {
+        "id": "menu-footer-widget-menu-1",
+        "classes": "menu",
+        "items": [
+          {
+            "text": "Swallows",
+            "url": "https://howtfoods.com.au/product-category/swallows/",
+            "has_submenu": false
+          },
+          {
+            "text": "Sweets and Chips",
+            "url": "https://howtfoods.com.au/product-category/bakery/snacks/sweets-and-chips/",
+            "has_submenu": false
+          },
+          {
+            "text": "Sauces and Spices",
+            "url": "https://howtfoods.com.au/product-category/sauces-and-spices/",
+            "has_submenu": false
+          },
+          {
+            "text": "Fish and Seafood",
+            "url": "https://howtfoods.com.au/product-category/fish-and-seafood/",
+            "has_submenu": false
+          },
+          {
+            "text": "Grains",
+            "url": "https://howtfoods.com.au/product-category/grains/",
+            "has_submenu": false
+          },
+          {
+            "text": "Packets",
+            "url": "https://howtfoods.com.au/product-category/packets/",
+            "has_submenu": false
+          },
+          {
+            "text": "Dairy and Eggs",
+            "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/",
+            "has_submenu": false
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "sections": [
+      {
+        "title": "Product Catalog",
+        "links": [
+          {
+            "text": "Swallows",
+            "url": "https://howtfoods.com.au/product-category/swallows/"
+          },
+          {
+            "text": "Sweets and Chips",
+            "url": "https://howtfoods.com.au/product-category/bakery/snacks/sweets-and-chips/"
+          },
+          {
+            "text": "Sauces and Spices",
+            "url": "https://howtfoods.com.au/product-category/sauces-and-spices/"
+          },
+          {
+            "text": "Fish and Seafood",
+            "url": "https://howtfoods.com.au/product-category/fish-and-seafood/"
+          },
+          {
+            "text": "Grains",
+            "url": "https://howtfoods.com.au/product-category/grains/"
+          },
+          {
+            "text": "Packets",
+            "url": "https://howtfoods.com.au/product-category/packets/"
+          },
+          {
+            "text": "Dairy and Eggs",
+            "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/"
+          }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          {
+            "text": "About Us",
+            "url": "https://howtfoods.com.au/about-us/"
+          },
+          {
+            "text": "Store locator",
+            "url": "https://howtfoods.com.au/contact-us/"
+          },
+          {
+            "text": "Contacts",
+            "url": "https://howtfoods.com.au/contact-us/"
+          },
+          {
+            "text": "Order Tracking",
+            "url": "https://howtfoods.com.au/order-tracking/"
+          },
+          {
+            "text": "Help center",
+            "url": "https://howtfoods.com.au/contact-us/"
+          },
+          {
+            "text": "Refund and Returns Policy",
+            "url": "https://howtfoods.com.au/refund-and-returns-policy/"
+          },
+          {
+            "text": "Terms and Conditions",
+            "url": "https://howtfoods.com.au/terms-and-conditions/"
+          }
+        ]
+      },
+      {
+        "title": "Follow us",
+        "links": [
+          {
+            "text": "Facebook",
+            "url": "https://www.facebook.com/112041077161173/posts/536521561379787/?d=n"
+          },
+          {
+            "text": "Instagram",
+            "url": "https://instagram.com/hangingoutwithtemi?igshid=YzAyZWRlMzg=/"
+          },
+          {
+            "text": "YouTube",
+            "url": "https://youtube.com/channel/UCib9gyIiycscVJlpkO2DrlA/"
+          }
+        ]
+      },
+      {
+        "title": "Stay informed",
+        "links": []
+      },
+      {
+        "title": "Download our app",
+        "links": [
+          {
+            "text": "Download on the\nApp Store",
+            "url": "#"
+          },
+          {
+            "text": "Download on the\nGoogle Play",
+            "url": "#"
+          }
+        ]
+      }
+    ],
+    "social_links": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/112041077161173/posts/536521561379787/?d=n"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://instagram.com/hangingoutwithtemi?igshid=YzAyZWRlMzg=/"
+      },
+      {
+        "platform": "youtube",
+        "url": "https://youtube.com/channel/UCib9gyIiycscVJlpkO2DrlA/"
+      }
+    ],
+    "payment_methods": [
+      "cards-payment_howtfoods.png"
+    ],
+    "copyright": "© HowtFoods 2022. All rights reserved. Made by PDC IMPRESSIONS"
+  },
+  "widgets": {
+    "sidebars": [
+      {
+        "position": "cz-sidebar cz-sidebar-fixed",
+        "widgets": []
+      }
+    ]
+  },
+  "features": {
+    "woocommerce": true,
+    "breadcrumbs": false,
+    "live_search": false,
+    "newsletter": true,
+    "chat_widget": false,
+    "reviews": false,
+    "recently_viewed": false
+  },
+  "pages_discovered": {},
+  "theme": {
+    "body_classes": [
+      "home",
+      "wp-singular",
+      "page-template-default",
+      "page",
+      "page-id-775",
+      "wp-custom-logo",
+      "wp-embed-responsive",
+      "wp-theme-cartzilla",
+      "wp-child-theme-cartzilla-child",
+      "theme-cartzilla",
+      "woocommerce-js",
+      "no-wc-breadcrumb",
+      "cartzilla-full-width-content",
+      "cartzilla-align-wide",
+      "bg-secondary",
+      "grocery-homepage"
+    ],
+    "likely_theme": "Cartzilla",
+    "frameworks": []
+  },
+  "discovered_pages": {
+    "homepage": [
+      {
+        "url": "https://howtfoods.com.au/",
+        "text": "Home"
+      }
+    ],
+    "about": [
+      {
+        "url": "https://howtfoods.com.au/about-us/",
+        "text": "About Howtfoods"
+      }
+    ],
+    "contact": [
+      {
+        "url": "https://howtfoods.com.au/contacts/",
+        "text": "Contacts"
+      },
+      {
+        "url": "https://howtfoods.com.au/contact-us/",
+        "text": "Contacts"
+      }
+    ],
+    "other": [
+      {
+        "url": "https://howtfoods.com.au/shop/",
+        "text": "Shop"
+      },
+      {
+        "url": "https://howtfoods.com.au/refund-and-returns-policy/",
+        "text": "Refund and Returns Policy"
+      },
+      {
+        "url": "https://howtfoods.com.au/wishlist-2/",
+        "text": "0\nWishlist"
+      },
+      {
+        "url": "mailto:info@howtfoods.com.au",
+        "text": "info@howtfoods.com.au"
+      },
+      {
+        "url": "https://howtfoods.com.au/shop",
+        "text": "More products"
+      },
+      {
+        "url": "https://howtfoods.com.au/order-tracking/",
+        "text": "Order Tracking"
+      }
+    ],
+    "account": [
+      {
+        "url": "https://howtfoods.com.au/my-account-2/",
+        "text": "Account"
+      },
+      {
+        "url": "https://howtfoods.com.au/my-account/orders/",
+        "text": "Order History"
+      },
+      {
+        "url": "https://howtfoods.com.au/my-account/payment-methods/",
+        "text": "Payment methods"
+      },
+      {
+        "url": "https://howtfoods.com.au/my-account-2/lost-password/",
+        "text": "Lost your password?"
+      }
+    ],
+    "category": [
+      {
+        "url": "https://howtfoods.com.au/product-category/swallows/",
+        "text": "Swallows"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/grains/",
+        "text": "Grains"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/fruits-and-vegetables/vegetables/",
+        "text": "Fruits and Vegetables"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/fruits-and-vegetables/leaves/",
+        "text": "Leaves"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/fruits-and-vegetables/fruits/",
+        "text": "Fruits"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/fruits-and-vegetables/fruits/citrus/",
+        "text": "Citrus"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/",
+        "text": "Dairy and Eggs"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/milk/",
+        "text": "Milk"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/pasta/",
+        "text": "Pasta"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/cheese/",
+        "text": "Cheese"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/cheese/hard-cheese/",
+        "text": "Hard cheese"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/cheese/soft-cheese/",
+        "text": "Soft cheese"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/dairy-and-eggs/cheese/semi-hard-cheese/",
+        "text": "Semi-hard cheese"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/meat-and-poultry/",
+        "text": "Meat and Poultry"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/meat-and-poultry/fresh-meat/",
+        "text": "Fresh meat"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/meat-and-poultry/fresh-meat/chicken/",
+        "text": "Chicken"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/fish-and-seafood/",
+        "text": "Fish and Seafood"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/fish-and-seafood/frozen-foods/",
+        "text": "Frozen Foods"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/fish-and-seafood/dry-fish/",
+        "text": "Dry Fish"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/fish-and-seafood/fresh-prawns/",
+        "text": "Fresh Prawns"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/fish-and-seafood/dry-prawns/",
+        "text": "Dry Prawns"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/sauces-and-spices/",
+        "text": "Sauces and Spices"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/sauces-and-spices/sauces/",
+        "text": "Sauces"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/sauces-and-spices/sauces/tomato-paste/",
+        "text": "Tomato paste"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/sauces-and-spices/soup-spices/",
+        "text": "Soup Spices"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/canned-food-and-oil/",
+        "text": "Canned Food and Oil"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/canned-food-and-oil/oils-and-vinegar/",
+        "text": "Oils and vinegar"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/herbal-drinks/",
+        "text": "Herbal Drinks"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/soft-drinks-and-juice/",
+        "text": "Soft Drinks and Juice"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/soft-drinks-and-juice/cocoa-drinks/",
+        "text": "Soft Drinks"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/soft-drinks-and-juice/drinks/",
+        "text": "Other Drinks"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/cereals/cereals-cereals/",
+        "text": "Sweets and Cereals"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/bakery/snacks/sweets-and-chips/",
+        "text": "Sweets and Chips"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/personal-hygiene/",
+        "text": "Personal hygiene"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/personal-hygiene/lotions-and-creams/",
+        "text": "Lotions and Creams"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/hair-products/hair-cream/",
+        "text": "Hair Cream"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/personal-hygiene/shampoo/",
+        "text": "Shampoo"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/hair-products/hair-conditioner/",
+        "text": "Hair Conditioner"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/personal-hygiene/remover/",
+        "text": "Remover"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/personal-hygiene/wipes/",
+        "text": "Wipes"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/hair-products/hair-sprey/",
+        "text": "Hair Sprey"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/personal-hygiene/soaps/",
+        "text": "Soaps"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/provisions/",
+        "text": "Provisions"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/bakery/snacks/",
+        "text": "Snacks"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/provisions/nuts/",
+        "text": "Nuts"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/bakery/",
+        "text": "Bakery"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/hair-products/",
+        "text": "Hair Products"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/hair-products/hair/",
+        "text": "Hair"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/hair-products/relaxer/",
+        "text": "Relaxer"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/hair-products/hair-gel/",
+        "text": "Hair gel"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/hair-products/hair-oil/",
+        "text": "Hair Oil"
+      },
+      {
+        "url": "https://howtfoods.com.au/product-category/packets/",
+        "text": "Packets"
+      }
+    ],
+    "legal": [
+      {
+        "url": "https://howtfoods.com.au/terms-and-conditions/",
+        "text": "Terms and Conditions"
+      },
+      {
+        "url": "https://howtfoods.com.au/privacy-policy/",
+        "text": "privacy policy"
+      }
+    ],
+    "ecommerce": [
+      {
+        "url": "https://howtfoods.com.au/cart-2/",
+        "text": "0"
+      }
+    ]
+  }
+}
