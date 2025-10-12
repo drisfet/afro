@@ -24,6 +24,15 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  experimental: {
+    serverActions: {
+      allowedOrigins: [
+        'localhost:8000',
+        '*.app.github.dev',
+        'opulent-space-system-5gv94q9vxgq63vq57-8000.app.github.dev',
+      ],
+    },
+  },
   images: {
     remotePatterns: [
       {

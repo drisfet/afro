@@ -6,6 +6,7 @@ import LocalizedClientLink from "@modules/common/components/localized-client-lin
 import CartButton from "@modules/layout/components/cart-button"
 import SideMenu from "@modules/layout/components/side-menu"
 import SearchBar from "@modules/layout/components/search-bar"
+import { MobileNav } from "@/components/mobile-nav"
 
 export default async function Nav() {
   const regions = await listRegions().then((regions: StoreRegion[]) => regions)
@@ -16,9 +17,14 @@ export default async function Nav() {
         <nav className="content-container flex items-center justify-between w-full h-full px-4">
           {/* Left: Logo and Menu */}
           <div className="flex items-center gap-4 h-full">
-            <div className="h-full flex items-center">
+            {/* Desktop menu - hidden on mobile */}
+            <div className="h-full hidden lg:flex items-center">
               <SideMenu regions={regions} />
             </div>
+            
+            {/* Mobile navigation - shown below lg breakpoint */}
+            <MobileNav />
+            
             <LocalizedClientLink
               href="/"
               className="flex items-center"

@@ -1,9 +1,10 @@
 import { listProducts } from "@lib/data/products"
+import { getProductPrice } from "@lib/util/get-product-price"
 import { HttpTypes } from "@medusajs/types"
 import { Text } from "@medusajs/ui"
 
 import InteractiveLink from "@modules/common/components/interactive-link"
-import ProductPreview from "@modules/products/components/product-preview"
+import EnhancedProductPreview from "@modules/products/components/product-preview/enhanced"
 
 export default async function ProductRail({
   collection,
@@ -34,13 +35,22 @@ export default async function ProductRail({
           View all
         </InteractiveLink>
       </div>
-      <ul className="grid grid-cols-2 small:grid-cols-3 gap-x-6 gap-y-24 small:gap-y-36">
+      <ul className="grid grid-cols-2 small:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-8 small:gap-x-6 small:gap-y-12">
         {pricedProducts &&
-          pricedProducts.map((product) => (
-            <li key={product.id}>
-              <ProductPreview product={product} region={region} isFeatured />
-            </li>
-          ))}
+          pricedProducts.map((product) => {
+            const { cheapestPrice } = getProductPrice({ product })
+            
+            return (
+              <li key={product.id}>
+                <EnhancedProductPreview 
+                  product={product} 
+                  region={region} 
+                  isFeatured 
+                  cheapestPrice={cheapestPrice}
+                />
+              </li>
+            )
+          })}
       </ul>
     </div>
   )
