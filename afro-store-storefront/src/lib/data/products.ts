@@ -134,3 +134,64 @@ export const listProductsWithSort = async ({
     queryParams,
   }
 }
+
+/**
+ * Minimal product data for listings (cards, grids)
+ * Use for: Category pages, collection pages, search results
+ * Fetches only: title, handle, thumbnail, variants.calculated_price, images
+ */
+export const listProductsMinimal = async (params: {
+  pageParam?: number
+  queryParams?: HttpTypes.FindParams & HttpTypes.StoreProductListParams
+  countryCode?: string
+  regionId?: string
+}) => {
+  return listProducts({
+    ...params,
+    queryParams: {
+      ...params.queryParams,
+      fields: "*variants.calculated_price,+images",
+    },
+  })
+}
+
+/**
+ * Product data for carousels and featured sections
+ * Use for: Homepage carousels, deals, featured products
+ * Fetches: minimal + metadata (for sale prices and featured flags)
+ */
+export const listProductsForDisplay = async (params: {
+  pageParam?: number
+  queryParams?: HttpTypes.FindParams & HttpTypes.StoreProductListParams
+  countryCode?: string
+  regionId?: string
+}) => {
+  return listProducts({
+    ...params,
+    queryParams: {
+      ...params.queryParams,
+      fields: "*variants.calculated_price,+metadata,+images",
+    },
+  })
+}
+
+/**
+ * Full product data for detail pages
+ * Use for: Product detail pages, related products with full info
+ * Fetches: everything including tags, inventory, collection
+ */
+export const listProductsFull = async (params: {
+  pageParam?: number
+  queryParams?: HttpTypes.FindParams & HttpTypes.StoreProductListParams
+  countryCode?: string
+  regionId?: string
+}) => {
+  return listProducts({
+    ...params,
+    queryParams: {
+      ...params.queryParams,
+      fields:
+        "*variants.calculated_price,+variants.inventory_quantity,+metadata,+tags,+images,+collection",
+    },
+  })
+}

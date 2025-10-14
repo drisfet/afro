@@ -37,8 +37,7 @@ export async function getDealProducts(
       query: {
         limit: limit * 2, // Fetch more to filter for deals
         region_id: region.id,
-        fields:
-          "*variants.calculated_price,+variants.inventory_quantity,+metadata,+tags,+images",
+        fields: "*variants.calculated_price,+metadata,+images",
         order: "-created_at", // Get newest products first
       },
       headers,

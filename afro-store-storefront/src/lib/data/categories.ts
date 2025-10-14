@@ -47,3 +47,32 @@ export const getCategoryByHandle = async (categoryHandle: string[]) => {
     )
     .then(({ product_categories }) => product_categories[0])
 }
+
+/**
+ * Fetch categories optimized for navigation (no products)
+ * Use for: Side menu, nav bars, breadcrumbs
+ * Fetches only: id, handle, name, description, category_children, parent_category
+ */
+export const listCategoriesForNav = async (query?: Record<string, any>) => {
+  const next = {
+    ...(await getCacheOptions("categories")),
+  }
+
+  const limit = query?.limit || 100
+
+  return sdk.client
+    .fetch<{ product_categories: HttpTypes.StoreProductCategory[] }>(
+      "/store/product-categories",
+      {
+        query: {
+          fields:
+            "id,handle,name,description,*category_children,*parent_category,*parent_category.parent_category",
+          limit,
+          ...query,
+        },
+        next,
+        cache: "force-cache",
+      }
+    )
+    .then(({ product_categories }) => product_categories)
+}
