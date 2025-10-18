@@ -48,16 +48,16 @@ export function CategoryTransitionProvider({ children }: { children: React.React
     selectedCategory: null,
   })
 
-  // Detect route changes and reset transition
+  // Detect route changes and reset transition only when page is ready
   useEffect(() => {
     if (state.isTransitioning && pathname !== previousPathname.current) {
-      // Route has changed, reset transition after a brief delay
+      // Route has changed, wait for page to fully load before dismissing overlay
       const timer = setTimeout(() => {
         setState({
           isTransitioning: false,
           selectedCategory: null,
         })
-      }, 300) // Small delay to ensure new page is visible
+      }, 800) // Longer delay to ensure smooth transition to loaded page
 
       previousPathname.current = pathname
       return () => clearTimeout(timer)
@@ -197,14 +197,6 @@ export function CategoryTransitionProvider({ children }: { children: React.React
                 <div className="w-8 h-8 border-4 border-white/30 border-t-white rounded-full animate-spin" />
               </motion.div>
             </motion.div>
-
-            {/* Fade out overlay for smooth transition */}
-            <motion.div
-              className="absolute inset-0 bg-white/10 backdrop-blur-sm"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.5, duration: 0.3 }}
-            />
           </motion.div>
         )}
       </AnimatePresence>

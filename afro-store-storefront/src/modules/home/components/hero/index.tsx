@@ -10,9 +10,8 @@ const Hero = () => {
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault()
-    // TODO: Implement search navigation
     if (searchQuery.trim()) {
-      window.location.href = `/search?q=${encodeURIComponent(searchQuery)}`
+      window.location.href = `/store?q=${encodeURIComponent(searchQuery)}`
     }
   }
 

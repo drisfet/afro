@@ -1,4 +1,4 @@
-import { listProducts } from "@lib/data/products"
+import { listProductsForDisplay } from "@lib/data/products"
 import { getRegion } from "@lib/data/regions"
 import DealsCarouselClient from "./client"
 
@@ -16,11 +16,10 @@ export default async function DealsCarousel({
     }
 
     // Fetch products that are on sale or featured
-    const { response } = await listProducts({
+    const { response } = await listProductsForDisplay({
       pageParam: 1,
       queryParams: {
         limit: 20,
-        fields: "*variants.calculated_price,+variants.inventory_quantity,+metadata",
       },
       countryCode,
     })

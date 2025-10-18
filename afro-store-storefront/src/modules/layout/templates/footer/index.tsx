@@ -1,9 +1,9 @@
-import { listCategories } from "@lib/data/categories"
+import { listCategoriesForNav } from "@lib/data/categories"
 import { Text } from "@medusajs/ui"
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
 
 export default async function Footer() {
-  const productCategories = await listCategories()
+  const productCategories = await listCategoriesForNav()
 
   // Key product categories for footer
   const footerCategories = [
